@@ -18,15 +18,8 @@ const Navbar = () => {
       </div>
       <div className="navbar-icons flex gap-5 items-center">
         <MdSearch className="icons" />
-        <p>Children</p>
+        <p>Pesquisar</p>
         <FaBell className="icons" />
-        <div className="nav-profile flex items-center gap-2 cursor-pointer relative">
-          <FaUser className="profile" />
-          <FaCaretDown />
-          <div className="dropdown  absolute top-[100%] right-0 w-max bg-[#191919] underline z-10 cursor-pointer ">
-            <p>Sair do TdmFlix</p>
-          </div>
-        </div>
       </div>
     </div>
   );

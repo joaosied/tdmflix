@@ -6,7 +6,6 @@ import { MdPlayArrow, MdInfo } from "react-icons/md";
 import TitleCards from "../components/TitleCards";
 import Footer from "../components/Footer";
 
-
 const Home = () => {
   return (
     <div className="">
