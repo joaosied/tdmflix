@@ -5,7 +5,7 @@
 body {
   background-color: #000;
   color: #fff;
-  font-family: 'poppins';
+  font-family: "poppins";
 }
 
 .navbar {
@@ -26,45 +26,51 @@ ul li {
   cursor: pointer;
 }
 
-.profile {
-  border-radius: 4px;
-  width: 30px;
-}
-
-.dropdown{
+.dropdown {
   display: none;
   padding: 18px 22px;
-  border-radius: 2px;  
+  border-radius: 2px;
 }
 
-.nav-profile:hover .dropdown{
+.dropdownInfo {
+  display: none;
+  padding: 18px 22px;
+  border-radius: 2px;
+}
+
+.iconBell:hover .dropdown {
   display: block;
 }
 
+.iconInfo:hover .dropdownInfo {
+  display: block;
+}
+
+
 /*  */
 
-.banner-img{
+.banner-img {
   mask-image: linear-gradient(to right, transparent, black 65%);
   -webkit-mask-image: linear-gradient(to right, transparent, black 65%);
 }
 
-.hero-caption{
+.hero-caption {
   padding-left: 6%;
 }
 
-.caption-img{
+.caption-img {
   width: 90%;
   max-width: 420px;
   margin-bottom: 30px;
 }
 
-.hero-caption p{
+.hero-caption p {
   max-width: 700px;
   font-size: 18px;
   margin-bottom: 20px;
 }
 
-.btn{
+.btn {
   border: 0;
   outline: 0;
   padding: 8px;
@@ -77,23 +83,91 @@ ul li {
   cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
   background: #ffffffbf;
 }
 
 /*  */
 
-.card-list::-webkit-scrollbar{
+.card-list::-webkit-scrollbar {
   display: none;
 }
 /*  */
 
-.footer{
+.footer {
   padding: 30px 4%;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-.footer-icons{
+.footer-icons {
   margin: 40px 0;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 20px 4%;
+  }
+  .navbar-logo ul {
+    display: none;
+  }
+  .navbar img {
+    height: 25px;
+  }
+  .hero-caption {
+    padding-left: 4%;
+  }
+  .caption-img {
+    margin-bottom: 10px;
+    width: 40%;
+  }
+  .hero-caption p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .more-cards {
+    padding-left: 4%;
+  }
+  .title-cards {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .title-cards h2 {
+    font-size: 20px;
+  }
+  .card-list img {
+    width: 200px;
+  }
+  .card-list p{
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar img {
+    height: 20px;
+  }
+  .navbar-icons {
+    gap: 10px;
+  }
+  .caption-img {
+    display: none;
+  }
+  .hero-btns .btn {
+    padding: 4px 10px;
+    gap: 5px;
+    font-size: 10px;
+  }
+  .title-cards h2 {
+    font-size: 15px;
+  }
+  .card-list img {
+    width: 165px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-btns {
+    margin-bottom: 30px;
+  }
 }

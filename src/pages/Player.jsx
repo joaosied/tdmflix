@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { IoIosArrowBack } from "react-icons/io";
 
+
 const Player = () => {
   const { id } = useParams()
   const navigate = useNavigate()
@@ -22,10 +23,8 @@ const Player = () => {
         allowFullScreen
       ></iframe>
 
-      <div className="player-info flex items-center justify-between w-[90%] mt-4">
-        <p>Published Date</p>
-        <p>Name</p>
-        <p>Type</p>
+      <div className="player-info flex items-center justify-center w-[90%] mt-4">
+        <p>{name}</p>
       </div>
     </div>
   )
