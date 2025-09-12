@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../src/assets/logo.png";
+import logo from "../../src/assets/logo.webp";
 import { MdSearch } from "react-icons/md";
 import { FaUser, FaBell, FaCaretDown } from "react-icons/fa";
 

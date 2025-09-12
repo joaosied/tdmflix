@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import hero_banner from "../assets/hero_banner.png";
-import hero_title from "../assets/hero_title.png";
+import hero_banner from "../assets/hero_banner.webp";
+import hero_title from "../assets/hero_title.webp";
 import { MdPlayArrow, MdInfo } from "react-icons/md";
 import {
   filmes,
